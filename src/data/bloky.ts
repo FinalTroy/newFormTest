@@ -1,7 +1,7 @@
-import { ClientIdentification } from "../components/ClientIdentification";
-import { ForeignActivities } from "../components/ForeignActivities";
-import { OwnerStructure } from "../components/OwnerStructure";
-import { RealOwner } from "../components/RealOwner";
+import { ClientIdentification } from "../components/Block/ClientIdentification";
+import { ForeignActivities } from "../components/Block/ForeignActivities";
+import { OwnerStructure } from "../components/Block/OwnerStructure";
+import { RealOwner } from "../components/Block/RealOwner";
 
 export interface IStep {
     key: string;

@@ -36,7 +36,7 @@ export const FormProvider: FC = ({ children }) => {
             language: "cs",
             testMode: true
         },
-        step: 0
+        step: 1
     })
     return (
         <FormContext.Provider value={{ data, setData }}>
